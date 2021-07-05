@@ -13,7 +13,8 @@ In this Project I will analyze Amazon reviews written by members of the paid Ama
 1) I will use Google Colab to perform the ETL Process, 
   a) will Load Amazon Data into Spark DataFrame
   
-    Insert df image
+   ![AmazonData2DF](https://user-images.githubusercontent.com/80013773/124473267-f3f6e480-dd53-11eb-89d6-0c2b7266e6bd.PNG)
+
 
     b) Create DataFrames to create the following matching Tables:
 
