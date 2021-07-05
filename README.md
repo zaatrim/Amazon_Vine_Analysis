@@ -188,5 +188,5 @@ Five-star reviews among non-Vine reviews
     
 ## *Summary*
 ### Advantages
- Statistical Analysis is a must for any product line. it's used to evaluate and predict our Production Health, performance, and Quality. R.Studio is a powerful tool and is used for conducting such statistical analysis 
+to conduct ETL process for Big Data, I used GoogleColab, PySpark to extract the dataset, transform the data, connect to an AWS RDS instance. ANd then loaded the transformed data into pgAdmin. for the 2nd part i used Pandas to determine if there is any bias toward favorable reviews from Vine members in the dataset.
  
