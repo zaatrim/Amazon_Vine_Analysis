@@ -175,8 +175,9 @@ Usingh Pandas I will load CSV file and then perform the following steps:
 
 #### Determine the percentage of five-star reviews among Vine vs. non-Vine reviews
 
-Insert two images of the analysis 
-  
+![fivestarvinereviews](https://user-images.githubusercontent.com/80013773/124474887-ee9a9980-dd55-11eb-8229-c272a52b4729.PNG)
+![percentage_five_star_non_vine](https://user-images.githubusercontent.com/80013773/124474896-f1958a00-dd55-11eb-9251-6e930ed78024.PNG)
+
 
     
 ## *Summary*
