@@ -24,24 +24,26 @@ In this Project I will analyze Amazon reviews written by members of the paid Ama
             review_id_df = df.select(["review_id", "customer_id", "product_id", "product_parent", to_date("review_date", 'yyyy-MM-dd').alias("review_date")])
             review_id_df.show()
 
-Insert review_id_table image
+   ![AmazonData2_Review_id_DF](https://user-images.githubusercontent.com/80013773/124473422-29033700-dd54-11eb-9d54-6745c9c4247f.PNG)
+
 
         b2) # Create the customers_table DataFrame
             customers_df = df.groupby("customer_id").agg({"customer_id": "count"}).withColumnRenamed("count(customer_id)", "customer_count")
             customers_df.show()
 
-Insert customers_table image
+   ![AmazonData2_customer_id_DF](https://user-images.githubusercontent.com/80013773/124473521-47693280-dd54-11eb-8282-9c9dc9acea71.PNG)
 
         b3) # Create the products_table DataFrame and drop duplicates. 
             products_df = df.select(["product_id", "product_title"]).drop_duplicates()
             products_df.show()
-Insert products_table image
+   ![AmazonData2_products_DF](https://user-images.githubusercontent.com/80013773/124473575-5bad2f80-dd54-11eb-9f7f-17897e41c142.PNG)
+
 
         b4) # Create the vine_table. DataFrame
             vine_df = df.select(["review_id", "star_rating", "helpful_votes", "total_votes", "vine", 'verified_purchase'])
             vine_df.show()
 
-Insert vine_table image
+   ![AmazonData2_vine_DF](https://user-images.githubusercontent.com/80013773/124473654-6f589600-dd54-11eb-9694-8ce378b8b243.PNG)
 
 
 2) Create PGAdmin Tables and Load the Data:
