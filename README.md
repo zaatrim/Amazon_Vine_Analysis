@@ -109,6 +109,7 @@ Usingh Pandas I will load CSV file and then perform the following steps:
         df2 = df1.loc[(df1["helpful_votes"]/df1["total_votes"] >= 0.5)]
         df2
 2) Analyze the Vine Reviews
+
         # Create a DataFrame that retrieves all the rows where a review was written as part of the Vine program (vine == Y).
         paid_df = df2.loc[df2["vine"]=="Y"]
         paid_df.head(10)
@@ -118,6 +119,7 @@ Usingh Pandas I will load CSV file and then perform the following steps:
         unpaid_df
 
 3) Determine the percentage of five-star reviews among Vine reviews
+
         paid_five_star_number = paid_df.loc[(paid_df['star_rating']== 5)]["star_rating"].count()
         type(paid_five_star_number)
         # Retrieve the number of 5 star ratings from the DataFrame that has a written review.
@@ -135,6 +137,7 @@ Usingh Pandas I will load CSV file and then perform the following steps:
         print(f"{round(percentage_five_star_vine,2)}%")
 
 4) Determine the percentage of five-star reviews among non-Vine reviews
+
         # Retrieve the number of 5 star ratings from the DataFrame that doesn't have a written review.
         unpaid_five_star_number = unpaid_df.loc[(unpaid_df['star_rating']== 5)]["star_rating"].count()
 
