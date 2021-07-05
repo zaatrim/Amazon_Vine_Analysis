@@ -154,20 +154,23 @@ Usingh Pandas I will load CSV file and then perform the following steps:
 
 ### Results
 
-#### An Amazon Review dataset is extracted as a  DataFrame
+#### An Amazon Review dataset is extracted as a products Table in PgAdmin
 
-#### An Amazon Review dataset is extracted as a products DataFrame
+![products_pgadmin](https://user-images.githubusercontent.com/80013773/124474375-4b498480-dd55-11eb-8123-2c8c076155b5.PNG)
 
-#### An Amazon Review dataset is extracted as  a review_id DataFrame
+#### An Amazon Review dataset is extracted as  a review_id Table in PgAdmin
 
-#### An Amazon Review dataset is extracted as a customers DataFrame
+![review_id_pgadmin_tablecount](https://user-images.githubusercontent.com/80013773/124474504-746a1500-dd55-11eb-9ff6-04196108ae1e.PNG)
 
-#### An Amazon Review dataset is extracted as a vine DataFrame
+#### An Amazon Review dataset is extracted as a customers Table in PgAdmin
+
+![customer_pgadmin_table](https://user-images.githubusercontent.com/80013773/124474226-26551180-dd55-11eb-8f65-3232402cb0e6.PNG)
 
 
-#### All four DataFrames are loaded into their respective tables in pgAdmin
+#### An Amazon Review dataset is extracted as a vine Table in PgAdmin
 
-insert pg tbales count
+![vine_tabe_pgadmin](https://user-images.githubusercontent.com/80013773/124474630-9e233c00-dd55-11eb-9a40-0674967778f9.PNG)
+
 
 
 #### Determine the percentage of five-star reviews among Vine vs. non-Vine reviews
